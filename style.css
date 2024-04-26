@@ -198,13 +198,6 @@ animation-delay: 2s, 3s;
 
 /* skills */
 
-.skills-data{
-   padding-left: 40px;
-   padding-top: 30px;
-    display: flex;
-
-}
-
 
 .divtwo{
   flex: 1;
@@ -358,14 +351,6 @@ p {
  }
  
  
- .divtwo{
-   flex: 1;
-     
- }
- 
- .divone{
-     flex: 1;
- }
 ul {
     
     padding: 10px;
@@ -391,4 +376,138 @@ ul {
     animation: slideRight 1s ease forwards;
     animation-delay: 1s;
 
+}
+
+.onemain{
+    border: 1px solid;
+    margin-top: 30px;
+    width: 300px;
+    margin-left: -165px;
+    padding: 30px;
+    padding-right: 30px;
+    flex: 1;
+    transition: 1s;
+    
+}
+
+.skills-data{
+   
+
+}
+.skills-data :hover{
+    background-color: rgb(50, 56, 54);
+
+} 
+
+
+.skills-data{
+    padding-left: 40px;
+    width: 800px;
+    padding-top: 10px;
+     display: flex;
+     transition: 1s;
+     opacity: 0;
+     animation: slideRight 1s ease forwards;
+     animation-delay: 1s;
+     margin-left: 15%;
+     
+ 
+ }
+ 
+
+.twomain{
+    border: 1px solid;
+    margin-top: 30px;
+    width: 300px;
+   
+    padding: 30px;
+    padding-right: 30px;
+    flex: 1;
+    transition: 1s;
+    
+}
+
+.arrea{
+    width: auto;
+    border: 3px solid;
+    padding: 5px;
+}
+.line{
+    width: 350px;
+    background-color: red;
+    height: 5px;
+    padding: 5px;
+    transition: 1s;
+    
+}
+ 
+.line:hover{
+    background-color: #0ef;
+}
+
+.line1:hover{
+    background-color: #0ef;
+}
+.line2:hover{
+    background-color: #0ef;
+}
+.line3:hover{
+    background-color: #0ef;
+}
+
+
+
+
+.arrea1{
+    width: auto;
+    border: 3px solid;
+    padding: 5px;
+}
+.line1{
+    width: 370px;
+    background-color: red;
+    height: 5px;
+    padding: 5px;
+    transition: 1s;
+    
+}
+
+.arrea2{
+    width: auto;
+    border: 3px solid;
+    padding: 5px;
+}
+.line2{
+    width: 320px;
+    background-color: red;
+    height: 5px;
+    padding: 5px;
+    transition: 1s;
+    
+}
+
+.arrea3{
+    width: auto;
+    border: 3px solid;
+    padding: 5px;
+}
+.line3{
+    width: 300px;
+    background-color: red;
+    height: 5px;
+    padding: 5px;
+    transition: 0.5s;
+    
+}
+
+
+#Codingskills{
+    font-size: 30px;
+}
+
+
+#persontage{
+    position:absolute;
+    margin-top: -23px;
+    margin-left: 380px;
 }
